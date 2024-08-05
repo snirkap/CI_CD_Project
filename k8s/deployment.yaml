@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: flask-app:latest  # Ensure to push your Docker image to a registry and update this image path accordingly
+        image: snirkapah1/flask-app:latest
         ports:
         - containerPort: 5000
