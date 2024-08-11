@@ -12,4 +12,3 @@ def client():
 def test_hello(client):
     rv = client.get('/')
     assert rv.data == b'Hello, World!'
-    
