@@ -1,6 +1,7 @@
 # CI_CD_Project
 ## Here you can see a diagram explaining the project:
-![CI_CD_project](https://github.com/user-attachments/assets/1ca41cad-d7ae-495c-89d7-0bf6248e5048)
+![CI_CD_project (1)](https://github.com/user-attachments/assets/65e95bff-2e66-4dea-8980-e2fd9449aa20)
+
 
 ## Overview:
 This project demonstrates a complete CI/CD pipeline for a Flask application using GitHub Actions, Docker, and Kubernetes with Argo CD. It includes automated building and pushing of Docker images, and seamless deployment to a Kubernetes cluster. The setup ensures a streamlined workflow for continuous integration and deployment, enhancing development efficiency and application reliability.
