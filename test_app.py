@@ -11,4 +11,5 @@ def client():
 
 def test_hello(client):
     rv = client.get('/')
-    assert rv.data == b'Hello, World!'
+    if rv.data != b'Hello, World!':
+        raise AssertionError(f"Expected b'Hello, World!', but got {rv.data}")
