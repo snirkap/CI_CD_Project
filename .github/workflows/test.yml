@@ -1,0 +1,17 @@
+name: Print Secrets Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Print Secret
+        run: echo "Your secret is ${{ secrets.MY_SECRET }}"
+ 
